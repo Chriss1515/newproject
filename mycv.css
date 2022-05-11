@@ -1,0 +1,334 @@
+
+html{
+	scroll-behavior: smooth;
+	
+}
+body{
+	/*background-image: url(/image/back.avif);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background:linear-gradient(141deg, rgb(80, 79, 79) 15%, #eee 40%, rgb(53, 45, 45) 94%);
+	color:#555;
+	color: #272829;
+	font-family:'Roboto';
+	font-weight:300;
+	font-size:20px;*/
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	
+	color:#555;
+}
+
+footer{
+	background: #11021e;
+	position: fixed;
+	left: 0;
+   bottom: 0;
+   width: 100%;
+   display: flex;
+}
+footer img{
+	width:30px;
+	align-items:center;
+}
+footer div{
+	width: 50%;
+	text-align: right;
+}
+
+footer .logo{
+	display: flex;
+}
+footer .logo p{
+	padding-left:5%;
+}
+
+hr{
+	width:80%;
+	
+}
+h1{
+	color: crimson;
+	text-transform: uppercase;
+}
+h3{
+	text-align: center;
+}
+.main{
+    display: flex;
+	width: 100%;
+	
+}
+
+.col-right{
+	padding: auto;
+	height: auto;
+	text-align: center;
+	width: 80%;
+
+	
+	/*word-wrap: break-word;*/		
+}
+
+
+
+
+ /* ==================== 
+   Column Left
+ ==================== */
+.col-left{
+	height: auto;
+	width:20%;
+	background: #11021e;
+}
+
+/* ==================== */
+/* Navigation Css */
+/* ==================== */
+
+.new-nav{
+	background: #11021e;
+}
+.new-nav ul{
+	display: flex;
+	list-style: none;
+	position: fixed;
+	background: #11021e;
+}
+.new-nav ul li{
+	padding: 5%;
+}
+#menu ul{
+	list-style: none;
+	position: fixed;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	padding-top: 10%;
+	text-transform: uppercase;
+}
+#menu ul li{
+	padding: 15%;
+	
+	
+}
+#menu ul li a{
+	text-decoration: none;
+	border-radius: 50%;	
+	color:#555;
+	transition: 0.5s;
+}
+#menu ul li a:hover{
+	text-decoration: none;
+	color:crimson;
+	transition: 0.5s;
+}
+
+#menu a img{
+	width: 50px;
+	height:auto;
+}
+
+/* ==================== 
+   End Navs
+ ==================== */
+
+/* ==================== 
+   End Column Left
+ ==================== */
+
+
+
+ /* ==================== 
+   Mobile Responsive
+ ==================== */
+
+@media screen and (max-width: 850px) {
+
+	
+	.col-left {
+	  width: 20%;
+	  height: auto;
+	  background: #11021e;
+	  
+	}
+	.col-right{
+		
+		overflow: scroll;
+	}
+	#menu ul{
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+		
+	}
+	
+	#menu ul li a{
+		background: crimson;
+		border-radius: 10px;
+		color: #555;
+		display: none;
+		
+	}
+}
+
+
+/* ==================== 
+   End Responsive
+ ==================== */
+
+ /* ======================================
+              Column Right
+ ========================================= */
+
+
+
+ /* ==================== 
+   Profile Section
+ ==================== */
+
+.section1{
+	padding-top:10%;
+	padding-bottom: 5%;
+	text-align: center;
+	background: linear-gradient(to bottom left, transparent 50%, #11021e 50%);
+	background-repeat: no-repeat;
+	border-radius: 10% 10% 0% 10%;
+	border-left:5px solid black;
+	transition: 1s;
+}
+
+.text-profil{
+	
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-style: oblique;
+	
+}
+.text-profil01{
+	border-right: 2px double black;
+	width:60%;
+	height: auto;
+	text-align: center;
+	
+}
+.text-profil02{
+	width:40%;
+	height: auto;
+}
+.text-profil02 img{
+	width:100%;
+	height:auto;
+	clip-path: circle();
+}
+
+.resume-text{
+	display: flex;
+}
+
+.resume1{
+	width:50%;
+	text-align: left;
+}
+.resume1 ul{
+	list-style: none;
+}
+
+.resume2{
+	width:50%;
+}
+
+/* ==================== 
+   End Profil Section
+ ==================== */
+
+
+ /* ==================== 
+   Experience Section
+ ==================== */
+.section2{
+	padding-top:10%;
+	padding-bottom: 10%;
+	background: linear-gradient(to bottom left, transparent 50%, #11021e 50%);
+	background-repeat: no-repeat;
+	border-left:5px solid black;
+	border-radius: 10% 10% 0% 10%;
+}
+.section2 ul{
+	list-style: none;
+}
+
+/* ==================== 
+   End Experience Section
+ ==================== */
+
+
+/* ==================== 
+   Diplome Section
+ ==================== */
+
+.section3{
+	padding-top:10%;
+	padding-bottom: 10%;
+	background: linear-gradient(to bottom left, transparent 50%, #11021e 50%);
+	background-repeat: no-repeat;
+	border-left:5px solid black;
+	border-radius: 10% 10% 0% 10%;
+}
+
+/* ==================== 
+   End Diplome Section
+ ==================== */
+
+
+ /* ==================== 
+   Competences Section
+ ==================== */
+.section4{
+	padding-top:10%;
+	padding-bottom: 10%;
+	background: linear-gradient(to bottom left, transparent 50%, #11021e 50%);
+	background-repeat: no-repeat;
+	border-left:5px solid black;
+	border-radius: 10% 10% 0% 10%;
+}
+
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 5px;
+}
+
+.html {width: 90%; background-color: #4e0d87;}
+.css {width: 90%; background-color: #12521c;}
+.js {width: 65%; background-color: #5d600e;}
+.php {width: 60%; background-color: #182669;}
+
+/* ==================== 
+   End Competences Section
+ ==================== */
+
+.section5{
+	padding-top:10%;
+	padding-bottom: 10%;
+	background: linear-gradient(to bottom left, transparent 50%, #11021e 50%);
+	background-repeat: no-repeat;
+	border-left:5px solid black;
+	border-radius: 10% 10% 0% 10%;
+}
+
+
+.section1 h3{
+	text-shadow: 5px 5px 10px black;
+}
+
+.section1 .text-profil02{
+	white-space:nowrap;
+}
+
+
+

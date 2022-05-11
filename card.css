@@ -1,0 +1,20 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.monimg{
+    height: 500px;
+    width: 100%;
+}
+
+.menu:hover{
+    background: greenyellow;
+    transition: 0.5s;
+
+}
+
+@media screen and (max-width:700px){
+    .menu:hover{
+        background: greenyellow;
+        transition: 0.5s;
+}
+
